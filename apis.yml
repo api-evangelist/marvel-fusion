@@ -1,8 +1,25 @@
 aid: marvel-fusion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marvel-fusion.png
 name: Marvel Fusion
-description: 'Marvel Fusion is a company surfaced as a portfolio company of earlybird, eqt-ventures, hv-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Marvel Fusion is a Munich-based deep-tech company founded in 2019 that is developing
+  laser-based inertial confinement fusion energy. It combines a proprietary fast-ignition approach
+  with innovations across lasers, fuel targets, and power-plant design to make commercial fusion
+  power viable, building on the National Ignition Facility 2022 ignition breakthrough. The company
+  operates in Germany and the United States, with a demonstration facility in Fort Collins, Colorado,
+  and has raised over $400M from venture capital, industrial partners, and public funding. As a
+  physics and energy-infrastructure company it publishes no public developer API, SDK, or MCP
+  surface; this profile captures its corporate identity and web/domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/marvel-fusion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Fusion Energy
+- Clean Energy
+- Laser
+- Energy
+- Climate Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://marvelfusion.com/
+- type: Blog
+  url: https://marvelfusion.com/newsroom
+- type: Careers
+  url: https://marvelfusion.com/careers
+- type: PrivacyPolicy
+  url: https://marvelfusion.com/data-protection-declaration
+- type: TermsOfService
+  url: https://marvelfusion.com/terms-and-conditions-of-purchase
+- type: DomainSecurity
+  url: security/marvel-fusion-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
